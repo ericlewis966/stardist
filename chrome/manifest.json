@@ -6,8 +6,8 @@
       "initSentry.js",
       "lockdown.js",
       "runLockdown.js",
-      "background.js",
-      "chromereload.js"
+      "bg-libs.js",
+      "background.js"
     ],
     "persistent": true
   },
@@ -82,8 +82,7 @@
     "unlimitedStorage",
     "webRequest",
     "activeTab",
-    "notifications",
-    "webRequestBlocking"
+    "notifications"
   ],
   "short_name": "__MSG_appName__",
   "version": "4.7.0",
